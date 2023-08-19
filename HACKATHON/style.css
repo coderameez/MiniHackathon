@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #6f44e7 ;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    z-index: 100;
+    color: white;
+   
+    
+}
+
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 10px;
+    color: white
+    ;
+}
+
+ 
+   
+
+
+/* index */
+.parass{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+/* sign up */
+.signup-box {
+    width: 360px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    margin-top:90px;
+    border: 1px solid grey;
+    
+  }
+  .already{
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+
+
+
+  /* login */
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 100px;
+    border: 1px solid grey;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 80px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #7749f8;
+    color: white;
+    font-size: 18px;
+margin-left: 105px;
+cursor: pointer;
+
+  }
+  .signup{
+    margin-top: 10px;
+    margin-left: 545px;
+  }
+  
+ /* dashboard*/
+ main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+
+  margin-top:70px ;
+line-height: 30px;
+
+}
+
+#blog-posts {
+  margin-bottom: 2rem;
+  
+}
+
+.blog-post {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+#create-post {
+  border: 1px solid #ddd;
+  padding: 1rem;
+ 
+}
+
+#create-post label,
+#create-post textarea,
+#create-post button {
+  display: block;
+  margin-bottom: 1rem;
+
+}
+
+#create-post textarea {
+  width: 100%;
+}
+
+#create-post button {
+  background-color: #6f44e7;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#create-post button:hover {
+  background-color: #6f44e7 ;
+}
+
+/* ,,,,,,Bootstrapp */
+.nav_bar{
+  width: 80% !important;
+  border: solid;
+}
+.logo{
+  font-size: 25px !important;
+  font-weight: bold;
+}
+.my_blog_h1 h1{
+  margin: 20px 0 ;
+
+  font-weight: bold !important;
+}
+.card-header {
+  min-height: 93px;
+  display: flex;
+  align-items: center;
+
+ 
+  width: 295px;
+}
+.card-header .pic{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background: #000;
+  margin: 2px 5px;
+}
+.pic img{
+height: 50px;
+width:50px;
+
+}
+
+  .post-title {
+    font-size: 20px;
+    font-weight: bold;
+ ;
+    width: 359px;
+    padding-left: 10px;
+
+}
+
+.card-body{
+  padding-top: 20px;
+}
+.paras{
+  padding-top: 5px;
+}
+.name{
+padding-left: 12px;
+}
+.card-body{
+  border: 1px solid #000;
+  padding-left: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+/* Profile */
+.profile-box{
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+  margin-top: 100px;
+  
+}
